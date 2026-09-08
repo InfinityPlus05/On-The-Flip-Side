@@ -1,0 +1,9 @@
+{
+  "id": "ontheflipside",
+  "name": "On the Flipside",
+  "prefix": "otfs",
+  "author": ["InfinityPlus05, unusualArtistic"],
+  "description": "A collection of B-Side decks, inspired by TBOI's Tainted Characters",
+  "main_file": "main.lua",
+  "badge_colour": "17608d",
+}
