@@ -10,6 +10,24 @@ return {
           "Earn money per remaining {C:red}Discard{}",
           "instead of per remaining {C:blue}hand{}"
         }
+      },
+      b_otfs_tainted_blue = {
+        name = "Ocean Blue Deck",
+        text = {
+          "{C:blue}+#1#{} hands every round",
+          "{C:blue}+#2#{} hand selection limit",
+          "Scored cards give {C:blue}#3#{} Chips for",
+          "every {C:red}Discard{} used per round"
+        }
+      },
+      b_otfs_tainted_yellow = {
+        name = "Gold Deck",
+        text = {
+          "{C:blue}+#1#{} hands every round",
+          "{C:blue}+#2#{} hand selection limit",
+          "Scored cards give {C:blue}#3#{} Chips for",
+          "every {C:red}Discard{} used per round"
+        }
       }
     }
   }
