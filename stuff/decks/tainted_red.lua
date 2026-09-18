@@ -8,8 +8,14 @@ SMODS.Back {
     self.config.selection_limit, self.config.hands } }
   end,
   apply = function(self, back)
-    SMODS.change_discard_limit(self.config.selection_limit)
-    G.GAME.modifiers.money_per_discard = G.GAME.modifiers.money_per_hand
-    G.GAME.modifiers.money_per_hand = 0
-  end,
+  G.E_MANAGER:add_event(Event({
+    trigger = 'after',
+    func = function()
+      SMODS.change_discard_limit(self.config.discards)
+      return true
+    end
+  }))
+  G.GAME.modifiers.money_per_discard = (G.GAME.modifiers.money_per_discard or 0) + (G.GAME.modifiers.money_per_hand or 1)
+  G.GAME.modifiers.money_per_hand = 0
+end
 }
