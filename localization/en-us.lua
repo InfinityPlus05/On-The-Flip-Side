@@ -23,10 +23,12 @@ return {
       b_otfs_tainted_yellow = {
         name = "Gold Deck",
         text = {
-          "{C:blue}+#1#{} hands every round",
-          "{C:blue}+#2#{} hand selection limit",
-          "Scored cards give {C:blue}#3#{} Chips for",
-          "every {C:red}Discard{} used per round"
+          "Start with extra {C:money}$#1#",
+          "{X:mult,C:white}X#2#{} Mult for every",
+          "{C:money}$#3#{} held during hand",
+          "Earned {C:attention}Interest{} is",
+          "{C:red}subtracted{} from money",
+          "Unlimited {C:attention}Interest cap"
         }
       }
     }
