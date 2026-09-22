@@ -35,6 +35,11 @@ return {
         name = "Mint Green Deck",
         text = {
           "Start with extra {C:red}-$#1#",
+          "Scored cards earn {C:money}$1{}",
+          "Completing a Blind with",
+          "{C:red}0{} Discards left gives {C:money}$#2#{}",
+          "Completing a Blind with",
+          "{C:blue}0{} Hands left gives {C:money}$#3#{}"
         }
       }
     }
