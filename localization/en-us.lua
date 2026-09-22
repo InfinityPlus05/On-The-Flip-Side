@@ -30,6 +30,12 @@ return {
           "{C:red}subtracted{} from money",
           "Unlimited {C:attention}Interest cap"
         }
+      },
+      b_otfs_tainted_green = {
+        name = "Mint Green Deck",
+        text = {
+          "Start with extra {C:red}-$#1#",
+        }
       }
     }
   }

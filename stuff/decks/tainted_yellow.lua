@@ -1,7 +1,11 @@
 SMODS.Back {
   key = 'tainted_yellow',
-  atlas = 'deck_atlas',
-  pos = { x = 2, y = 0 },
+  --[[
+  atlas = 'yellow_atlas',
+  pos = { y = 0 },]]
+  -- animated texture currently bugged due to smods
+  atlas = 'placeholder',
+  pos = {x = 0, y = 0},
   config = { dollars = 11, xmult = 1.5, dollars_required = 15},
   loc_vars = function(self, info_queue, back)
     return { vars = { self.config.dollars, 
@@ -15,7 +19,9 @@ SMODS.Back {
 			end,
 		}))
 
-    G.GAME.modifiers.otfs_negative_interest = true
+    G.GAME.OTFS.negative_interest = true
+    G.GAME.banned_keys['v_seed_money'] = true
+    G.GAME.banned_keys['v_money_tree'] = true
   end,
   calculate = function (self, back, context)
     if context.final_scoring_step then
