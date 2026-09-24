@@ -54,6 +54,20 @@ return {
           "defeating a {C:attention}Boss Blind"
         },
       },
+      b_otfs_tainted_magic = {
+        name = "Psychic Deck",
+        text = {
+          "Start run with",
+          "{C:tarot,T:v_crystal_ball}#1#{}, {C:spectral,T:v_omen_globe}#2#{},",
+          "and {C:tarot,T:v_tarot_merchant}#3#",
+          "All {C:tarot}Tarot{} cards in shop",
+          "are {C:tarot,T:c_fool}#4#",
+          "{C:tarot}#4#{} can copy", 
+          "{C:spectral}Spectral{} cards",
+          "{C:tarot}Tarot{} and {C:spectral}Spectral{} cards",
+          "cost {C:money}$3{} to use"
+        },
+      },
     }
   }
 }
