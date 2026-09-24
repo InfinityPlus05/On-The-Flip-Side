@@ -2,7 +2,7 @@ SMODS.Back {
   key = 'tainted_green',
   atlas = 'deck_atlas',
   pos = { x = 2, y = 0 },
-  config = { dollars = -34, dollars_zero_discards = 5, dollars_zero_hands = 20},
+  config = { dollars = -104, dollars_zero_discards = 5, dollars_zero_hands = 20},
   loc_vars = function(self, info_queue, back)
     return { vars = { self.config.dollars * -1, self.config.dollars_zero_discards, self.config.dollars_zero_hands } }
   end,

@@ -1,11 +1,7 @@
 SMODS.Back {
   key = 'tainted_yellow',
-  --[[
   atlas = 'yellow_atlas',
-  pos = { y = 0 },]]
-  -- animated texture currently bugged due to smods
-  atlas = 'placeholder',
-  pos = {x = 0, y = 0},
+  pos = { y = 0 },
   config = { dollars = 11, xmult = 1.5, dollars_required = 15},
   loc_vars = function(self, info_queue, back)
     return { vars = { self.config.dollars, 

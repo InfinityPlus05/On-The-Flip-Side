@@ -41,7 +41,19 @@ return {
           "Completing a Blind with",
           "{C:blue}0{} Hands left gives {C:money}$#3#{}"
         }
-      }
+      },
+      b_otfs_tainted_black = {
+        name = "Blacklight Deck",
+        text = {
+          "{C:attention}-#1#{} Joker slots",
+          "{C:blue}-#2#{} hand every round",
+          "{C:red}-#3#{} discard every round",
+          "Gain {C:blue}+#2#{} hand and {C:red}+#3#{} discard",
+          "for each empty Joker{} slot",
+          "Gain {C:attention}+#4#{} Joker slot when",
+          "defeating a {C:attention}Boss Blind"
+        },
+      },
     }
   }
 }
