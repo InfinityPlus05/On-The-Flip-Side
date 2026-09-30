@@ -40,7 +40,8 @@ function Game.init_game_object(self)
 
 	ret.OTFS = {
 		negative_interest = false,
-		cards_give_money = false
+		cards_give_money = false,
+		no_spectral_downsides = false,
 	}
 
 	return ret

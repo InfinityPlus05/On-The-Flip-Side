@@ -68,6 +68,99 @@ return {
           "cost {C:money}$3{} to use"
         },
       },
+      b_otfs_tainted_nebula = {
+        name = "Galaxy Deck",
+        text = {
+          "Start run with",
+          "{C:planet,T:v_telescope}#1#{}, {C:planet,T:v_observatory}#2#{},",
+          "and a {C:dark_edition,T:e_negative}Negative",
+          "{C:attention,T:j_astronomer}#3#",
+          "{C:attention}+#4#{} Consumable Slots",
+          "Playing most played hand",
+          "{C:red}subtracts{} score"
+        },
+      },
+      b_otfs_tainted_ghost = {
+        name = "Vengeful Spirit Deck",
+        text = {
+          "{C:spectral}Spectral{} cards may",
+          "appear in the shop",
+          "{C:spectral}Spectral{} cards no longer",
+          "have negative effects",
+          "{C:attention}Lose all money{} at",
+          "end of {C:attention}shop"
+        },
+      },
+    },
+    Spectral = {
+      c_ankh_buff ={
+        text={
+          "Create a copy of a",
+          "random {C:attention}Joker{}"
+        },
+      },
+      c_ectoplasm_buff ={
+        text={
+          "Add {C:dark_edition}Negative{} to",
+          "a random {C:attention}Joker"
+        },
+      },
+      c_familiar_buff ={
+        text={
+          "Destroy up to {C:attention}#1#{}",
+          "selected card in your hand, add",
+          "{C:attention}#2#{} random {C:attention}Enhanced face",
+          "{C:attention}cards{} to your hand",
+        },
+      },
+      c_grim_buff ={
+        text={
+          "Destroy up to {C:attention}#1#{}",
+          "selected card in your hand, add",
+          "{C:attention}#1#{} random {C:attention}Enhanced",
+          "{C:attention}Aces{} to your hand",
+        },
+      },
+      c_hex_buff={
+        text={
+          "Add {C:dark_edition}Polychrome{} to a",
+          "random {C:attention}Joker{}",
+        },
+      },
+      c_immolate_buff ={
+        text={
+          "Destroys up to {C:attention}#1#{}",
+          "selected cards in hand,",
+          "gain {C:money}$#2#",
+        },
+      },
+      c_incantation_buff={
+        text={
+          "Destroy up to {C:attention}#1#{}",
+          "selected card in your hand, add",
+          "random {C:attention}Enhanced numbered",
+          "{C:attention}cards{} to your hand",
+        },
+      },
+      c_ouija_buff={
+        text={
+          "Converts all cards",
+          "in hand to a single",
+          "random {C:attention}rank",
+        },
+      },
+      c_wraith_buff={
+        text={
+          "Creates a random",
+          "{C:red}Rare{C:attention} Joker{}",
+        },
+      },
+    },
+  },
+  misc = {
+    dictionary = {
+      k_otfs_negative_score = "Subtracted",
+      k_otfs_will_subtract = "This hand will subtract score"
     }
   }
 }
