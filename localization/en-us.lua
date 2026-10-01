@@ -93,63 +93,72 @@ return {
       },
     },
     Spectral = {
-      c_ankh_buff ={
+      c_otfs_ankh_buff ={
+        name = "Ankh",
         text={
           "Create a copy of a",
           "random {C:attention}Joker{}"
         },
       },
-      c_ectoplasm_buff ={
+      c_otfs_ectoplasm_buff ={
+        name = "Ectoplasm",
         text={
           "Add {C:dark_edition}Negative{} to",
           "a random {C:attention}Joker"
         },
       },
-      c_familiar_buff ={
+      c_otfs_familiar_buff ={
+        name = "Familiar",
         text={
-          "Destroy up to {C:attention}#1#{}",
-          "selected card in your hand, add",
+          "Destroy up to {C:attention}#1#{} selected",
+          "card in your hand, add",
           "{C:attention}#2#{} random {C:attention}Enhanced face",
           "{C:attention}cards{} to your hand",
         },
       },
-      c_grim_buff ={
+      c_otfs_grim_buff ={
+        name = "Grim",
         text={
-          "Destroy up to {C:attention}#1#{}",
-          "selected card in your hand, add",
+          "Destroy up to {C:attention}#1#{} selected",
+          "card in your hand, add",
           "{C:attention}#1#{} random {C:attention}Enhanced",
           "{C:attention}Aces{} to your hand",
         },
       },
-      c_hex_buff={
+      c_otfs_hex_buff={
+        name = "Hex",
         text={
           "Add {C:dark_edition}Polychrome{} to a",
           "random {C:attention}Joker{}",
         },
       },
-      c_immolate_buff ={
+      c_otfs_immolate_buff ={
+        name = "Immolate",
         text={
           "Destroys up to {C:attention}#1#{}",
           "selected cards in hand,",
           "gain {C:money}$#2#",
         },
       },
-      c_incantation_buff={
+      c_otfs_incantation_buff={
+        name = "Incantation",
         text={
-          "Destroy up to {C:attention}#1#{}",
-          "selected card in your hand, add",
+          "Destroy up to {C:attention}#1#{} selected",
+          "card in your hand, add",
           "random {C:attention}Enhanced numbered",
           "{C:attention}cards{} to your hand",
         },
       },
-      c_ouija_buff={
+      c_otfs_ouija_buff={
+        name = "Ouija",
         text={
           "Converts all cards",
           "in hand to a single",
           "random {C:attention}rank",
         },
       },
-      c_wraith_buff={
+      c_otfs_wraith_buff={
+        name = "Wraith",
         text={
           "Creates a random",
           "{C:red}Rare{C:attention} Joker{}",
