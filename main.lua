@@ -33,6 +33,22 @@ SMODS.Atlas {
 
 SMODS.load_file("stuff/decks.lua")()
 
+function OTFS.is_plant_showdown()
+	local ante = G.GAME.round_resets.ante
+	return G.GAME.OTFS.planting_my_showdown and ante >= 2 and ante % G.GAME.win_ante == 0
+end
+
+local get_new_blind_ref = SMODS.get_new_blind
+---@diagnostic disable: duplicate-set-field
+function SMODS.get_new_blind(blind_type)
+	if blind_type == 'boss' and OTFS.is_plant_showdown() then
+		local boss = 'bl_plant'
+		SMODS.add_boss_to_used_table(boss, blind_type)
+		return boss
+	end
+	return get_new_blind_ref(blind_type)
+end
+
 ---@diagnostic disable: duplicate-set-field
 local init_game_object_ref = Game.init_game_object
 function Game.init_game_object(self)
@@ -42,6 +58,7 @@ function Game.init_game_object(self)
 		negative_interest = false,
 		cards_give_money = false,
 		no_spectral_downsides = false,
+		planting_my_showdown = false,
 	}
 
 	return ret

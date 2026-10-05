@@ -91,6 +91,15 @@ return {
           "end of {C:attention}shop"
         },
       },
+      b_otfs_tainted_abandoned = {
+        name = "Ruined Deck",
+        text = {
+          "Start with a {C:dark_edition,T:e_negative}Negative",
+          "{C:attention}Eternal {C:attention,T:j_pareidolia}#1#",
+          "All {C:attention}Showdown Blinds{} are",
+          "replaced by {V:1,T:bl_plant,T_set:Blind}#2#"
+        },
+      },
     },
     Spectral = {
       c_otfs_ankh_buff ={

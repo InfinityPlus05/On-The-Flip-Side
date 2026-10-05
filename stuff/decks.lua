@@ -7,7 +7,7 @@ OTFS.enabled_decks = {
   "tainted_magic",
   "tainted_nebula",
   "tainted_ghost",
-  -- "tainted_abandoned",
+  "tainted_abandoned",
   -- "tainted_checkered",
   -- "tainted_zodiac",
   -- "tainted_painted",
